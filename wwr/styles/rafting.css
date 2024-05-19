@@ -1,3 +1,80 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for the navigation bar */
+.navbar {
+    background-color: #9370DB; /* Light purple color */
+    overflow: hidden;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #836FFF; /* Darker purple on hover */
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #F5F5F5; /* Light gray background */
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* History section */
+.history {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 20px 20px;
+}
+
+.history .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.history img {
+    max-width: 80%;
+    height: auto;
+    margin: 20px;
+}
+/* Adventure section */
+.adventure {
+    background-color: #F5F5F5;
+    padding: 40px 20px;
+    text-align: center;
+}
 .adventure section img{
     display: flex;
     justify-content: center;
@@ -5,33 +82,30 @@
     width: 186px;
     height: 200px;
   }
-  
-  h1,h2{
+.gallery {
     display: flex;
-    justify-content: left;
-    text-align: center;
-    font-size: 1.5rem;
-    text-shadow: 3px 3px 5px #777;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-  
-  .pict {
-      text-align: center;
-      display: grid;
-      grid-template-columns: min-content min-content min-content min-content min-content ;
-      max-width: 960px;
-  }
-  
-  .pict h2 {
-      grid-column: 1 / 6;
-  }
-  
-  .pict figure{
-      margin: 0;
-      margin-bottom: 20px;
-  }
-  
-  section img {
-      max-width: 190px; 
-      height: 150px; 
-      margin-left: 1px;
-  }
+
+.gallery-item {
+    margin: 10px;
+}
+
+.gallery-item img {
+    max-width: 150px;
+    height: auto;
+    display: inline;
+    margin: 0 auto;
+}
+.gallery-item p {
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #9370DB;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
