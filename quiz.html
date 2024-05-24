@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Basic HTML and CSS Quiz</h1>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>1. What does the acronym CSS stand for?</legend>
+                <input type="text" id="cssAcronym" name="cssAcronym" required>
+            </fieldset>
+            <fieldset>
+                <legend>2. How are id and class attributes selected in CSS?</legend>
+                <textarea id="idClassSelection" name="idClassSelection" rows="4" required></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>3. Which of the following is a valid CSS comment?</legend>
+                <select id="cssComment" name="cssComment" required>
+                    <option value="disabled selected">Choose One </option>
+                    <option value="option1">/* This is a comment */</option>
+                    <option value="option2">// This is a comment</option>
+                    <option value="option3">!-- This is a comment </option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>4. What is the bottom margin given this declaration?</legend>
+                <pre>margin: 10px 5px 15px </pre>
+                <input type="text" id="bottomMargin" name="bottomMargin" required>
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </div>
+</body>
+</html>
