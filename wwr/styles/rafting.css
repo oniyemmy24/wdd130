@@ -42,7 +42,70 @@ body {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #F5F5F5; /* Light gray background */
+}
 
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* History section */
+.history {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 20px 20px;
+}
+
+.history .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.history img {
+    max-width: 80%;
+    height: auto;
+    margin: 20px;
+}
+/* Adventure section */
+.adventure {
+    background-color: #F5F5F5;
+    padding: 40px 20px;
+    text-align: center;
+}
+.adventure section img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 186px;
+    height: 200px;
+  }
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    margin: 10px;
+}
+
+.gallery-item img {
+    max-width: 150px;
+    height: auto;
+    display: inline;
+    margin: 0 auto;
+}
+.gallery-item p {
+    margin-top: 10px;
+}
 h1 {
     text-align: center;
     color: #333;
