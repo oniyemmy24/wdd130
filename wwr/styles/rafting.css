@@ -8,7 +8,7 @@ body {
 }
 /* Styles for the navigation bar */
 .navbar {
-    background-color: #9370DB; /* Light purple color */
+    background-color: #2f726f;
     overflow: hidden;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .nav-link:hover {
-    background-color: #836FFF; /* Darker purple on hover */
+    background-color: #2f726f; 
 }
 .container {
     width: 80%;
@@ -42,13 +42,37 @@ body {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.booking-info {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.booking-info p {
+    font-size: 16px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+.book-now {
+    background-color: #2f726f;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.book-now:hover {
+    background-color: #255d5b;
+}
 /* Hero section */
 .hero {
     text-align: center;
     padding: 20px 20px;
     background-color: #F5F5F5; /* Light gray background */
 }
-
 .hero img {
     max-width: 100%;
     height: auto;
@@ -162,14 +186,14 @@ h1 {
 }
 
 .contact-form input[type="submit"] {
-    background-color: #007bff;
+    background-color: #2f726f;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 .contact-form input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #2f726f;
 }
 
 .map {
@@ -178,7 +202,7 @@ h1 {
 }
 /* Footer */
 footer {
-    background-color: #9370DB;
+    background-color: #2f726f;
     color: white;
     text-align: center;
     padding: 20px;
@@ -190,14 +214,14 @@ footer {
 }
 
 .footer-text {
-    color: #fff;
+    color: #2f726f;
     margin-bottom: 10px;
 }
 
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .social-links img {
