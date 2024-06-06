@@ -5,45 +5,40 @@ body, ul {
 body {
     font-family: Arial, sans-serif;
 }
+/* Styles for header */
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     padding: 20px 0;
 }
 .header-content{
     text-align: center;
     font-size: 1.0em;
-    margin: 30px 40px;
+    margin: 50px 40px;
 }
-
-.logo img {
-    width: 70px;
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 60px;
     height: auto;
-}
-
-.nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #333;
 }
 
 .hero {
     text-align: center;
-    background: url('hero-image.jpg') no-repeat center center;
     background-size: cover;
     padding: 50px 20px;
-    color: white;
+    color: rgb(15, 15, 15);
 }
-
 .hero h1 {
-    font-size: 2.5em;
-    margin: 20px 0;
+    font-size: 2em;
+    margin: 20px 10px;
 }
 
 .hero p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
+    font-size: 1.0em;
+    margin-bottom: 10px;
 }
 hr {
     border: none;
@@ -58,6 +53,9 @@ hr {
 .trip-section {
     margin: 40px 0;
     text-align: center;
+    background-color: #8e9091;
+    color: white;
+    padding: 40px 20px;
 }
 
 .trip-section h2 {
@@ -84,31 +82,26 @@ hr {
 /* Styles for the navigation bar */
 .navbar {
     background-color: #2f726f;
-    overflow: hidden;
+    overflow:visible;
+    height: 100px;
 }
-
 .nav-menu {
     list-style: none;
-    display: flex;
-    justify-content: center;
+    display:flex;
+    justify-content: right;
     align-items: center;
-    height: 60px;
+    height: 160px;
+    gap: 0.03px;
 }
-
 .nav-item {
-    margin: 0 15px;
+    margin: 0 3px;
 }
-
 .nav-link {
     text-decoration: none;
     color: white;
-    padding: 14px 20px;
+    padding: 0;
     display: block;
-    transition: background-color 0.3s;
-}
-
-.nav-link:hover {
-    background-color: #2f726f; 
+    transition: #2f726f;
 }
 .container {
     width: 80%;
@@ -142,17 +135,135 @@ hr {
 .book-now:hover {
     background-color: #255d5b;
 }
+main {
+    padding: 20px;
+}
+.signup {
+    background-color: #f9f9f9;
+    padding: 50px;
+    margin: 0;
+    border-radius: 0px;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signup h2 {
+    margin-top: 5px;
+}
+.signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup form label {
+    margin: 0.5px;
+}
+
+.signup form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 60%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup form button {
+    padding: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00CFFF;
+    color: rgb(134, 130, 130);
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.signup form button:hover {
+    background-color: #009bb5;
+}
+.cta {
+    background-color: #8e9091;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta h2 {
+    margin-top: 0;
+}
+.cta-button {
+    display:block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #00CFFF;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #009bb5;
+    color: rgb(102, 99, 99);
+}
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-layout p {
+    color: rgb(248, 247, 245);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 50%;
+    border: 3px solid var(--primary-color);
+    margin-bottom: 10px;
+}
 
 /* Hero section */
 .hero {
     text-align: center;
-    padding: 20px 20px;
+    padding: 10px 10px;
     background-color: #d3cccc; /* Light gray background */
 }
-.hero img {
-    max-width: 100%;
-    height: auto;
+.hero-image{
+    width: 100%;
+    height:100%;
+    margin-top: 50px;
+    object-fit: cover;
+}
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
+    text-align: center;
+}
+.hero-container-image{
+    width: 80%;
+    height:80%;
     margin-top: 20px;
+    object-fit: cover;
+}
+.hero img{
+    width: 50%;
+    height:auto;
+    margin-top: 20px;
+    object-fit: cover;
+}
+.hero-text h1 {
+    font-size: 2em;
+    margin: 0;
 }
 
 /* History section */
@@ -167,12 +278,15 @@ hr {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    top: 50%;
+    left: 50%;
+    color: white;
 }
 
 .history img {
-    max-width: 80%;
+    width: 80%;
     height: auto;
-    margin: 20px;
+    margin: 10px;
 }
 /* Adventure section */
 .adventure {
@@ -209,6 +323,7 @@ hr {
 h1 {
     text-align: center;
     color: #333;
+    font-size: 2em;
 }
 
 .team-member {
