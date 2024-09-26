@@ -29,7 +29,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rpga(0, 0, 0, 0.2);
+    border: steelblue solid 1px;
     padding: 1rem;
     background-color: #eee;
     color: #333;
