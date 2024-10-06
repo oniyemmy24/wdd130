@@ -89,16 +89,21 @@ header nav a {
     width: 150%;
     height: auto;
     margin-bottom: 20px;
-    display: flex;
-
+    margin-right: 100%;
 }
 
 .adventure img.small {
-    width: 48%;
+    width: 60%;
     float: left;
-    margin-right: 50%;
 }
 
+.adventure section img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+  }
 
 /* Footer */
 footer {
