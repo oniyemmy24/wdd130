@@ -2,6 +2,7 @@
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    color: #1e272b;
     margin: 0;
     padding: 0;
 }
@@ -85,20 +86,19 @@ header nav a {
 
 /* Adventure Section */
 .adventure img {
-    width: 100%;
+    width: 150%;
     height: auto;
     margin-bottom: 20px;
+    display: flex;
+
 }
 
 .adventure img.small {
     width: 48%;
     float: left;
-    margin-right: 2%;
+    margin-right: 50%;
 }
 
-.adventure img.small:last-child {
-    margin-right: 0;
-}
 
 /* Footer */
 footer {
