@@ -1,60 +1,20 @@
-:root {
-    --heading-background-color: 60AFFF;
-    --heading-text-color: #333;
-    --padding: 1rem
-    --heading-font: 'Montserrat' , Helverica, sans-serif;
-    --border: 1px solid rgba(0,0,0,0.1);
-}
+
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-}
-/* Hero section */
-.hero {
-    color: rgb(15, 15, 15);
-    text-align: center;
-    align-items: center;
-    padding: 1px;
-    position: absolute;
-    background-color: #d3cccc; /* Light gray background */
-}
-
-.hero-image{
-    width: 100%;
-    height:50%;
-    margin-top: 40px;
-    object-fit: cover;
-}
-
-.hero img {
-    display: inline-block;
-    width: 10%;
-    height:auto;
-    margin-top: 5px;
-    padding: 10px 10px;
-}
-
-.hero-container {
-    position: relative;
-    width: 10%;
-    height: 20%; /* Adjust height as needed */
-    text-align: center;
-    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    display: flex;                 /* Use flexbox for alignment */
-    justify-content: center;        /* Centers the image horizontally */
-    align-items: center;            /* Centers the image vertically */
-    height: 40%;                  /* Full viewport height for vertical centering */
-    background-color: #f0f0f0;      /* Optional: Background color for the header */
-  }
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: left;
+}
 
-.logo {
-    align-items: center;
-    padding: 0.5px;
-    display:inline-flex;
+header img {
     width: 100px;
+    height: auto;
 }
 
 /* Styles for the navigation bar */
@@ -63,84 +23,93 @@ header {
 }
 .nav-menu {
     list-style: none;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
+    height: 10px;
     gap: 0.03px;
+    display:block;
+}
+header nav a {
+    margin: 0 1px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
 
-/* History section */
-.history {
-    text-align: center;
-    background-color: #f1eded;
-    padding: 20px 20px;
+/* Hero Section */
+
+.hero image{
+    background-image: ('background-logo.jpg'); /* Replace with your image */
+    display: block;
+    width:100%;
+    height: auto;
+    position: absolute;
+    color: white;
+    object-fit: cover;
 }
 
-.history .content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.hero h1 {
+    position: relative;
     top: 50%;
     left: 50%;
-    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bold;
 }
 
-.history img {
-    width: 80%;
+.hero {
+    background-color: rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+    padding: 20px;
+    max-width: 400%;
     height: auto;
-    margin: 10px;
+    position: relative;
+    top: 70%;
+    left: 1%;
 }
-/* Adventure section */
-.adventure {
-    background-color: #F5F5F5;
-    padding: 40px 20px;
+
+/* Content Sections */
+.section {
+    padding: 40px;
     text-align: center;
 }
-.adventure section img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 100px;
-  }
-.gallery {
-    display: flex;
-    flex-direction: column; /* Stacks images vertically */
-    align-items: center; /* Center-align the images */
-    gap: 10px; /* Add spacing between images */
-    padding: 20px;
-    flex-wrap: wrap;
+
+.section h2 {
+    color: #f26522;
+    margin-bottom: 20px;
+}
+
+.section p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+/* Adventure Section */
+.adventure img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.adventure img.small {
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+}
+
+.adventure img.small:last-child {
+    margin-right: 0;
 }
 
 /* Footer */
 footer {
     background-color: #2f726f;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 20px;
-}
-.footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: rgb;
+    text-align: left;
+    padding: 10px;
+    height: 3%;
 }
 
 .footer-text {
-    color: #2f726f;
-    margin-bottom: 10px;
-}
-
-.sociallinks {
-    display:inline;
-    justify-content: left;
-    gap: 10px;
-}
-
-.sociallinks img {
-    width: 30px;
-    height: 30px;
-    border-radius: 20%;
-    transition: transform 0.5s ease;
+    color: #f0f1f1f5;
+    margin-bottom: 5px;
 }
