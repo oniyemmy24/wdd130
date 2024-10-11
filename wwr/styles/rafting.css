@@ -39,26 +39,26 @@ h1 {
 
 /* Styles for the navigation bar */
 nav {
-   position: absolute;
-   right: 12%;
-	 text-align: right;
-   padding: 20px;
+  position: absolute;
+  right: 12%;
+  text-align: right;
+  padding: 20px;
 }
 
 .navigation ul {
-   display: flex;
-	 list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 .navigation  {
-	display: flex;
-	color: navy;
+ display: flex;
+ color: navy;
 }
 
 .navigation a:hover {
-	color: tomato;
-	font-weight: 700;
-	text-decoration: underline;
+ color: tomato;
+ font-weight: 700;
+ text-decoration: underline;
 }
 
 /* Main Section */
