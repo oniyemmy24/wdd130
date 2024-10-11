@@ -39,15 +39,15 @@ h1 {
 
 /* Styles for the navigation bar */
 nav {
-    position: absolute;
-    right: 12%;
-	text-align: right;
-    padding: 20px;
+   position: absolute;
+   right: 12%;
+	 text-align: right;
+   padding: 20px;
 }
 
 .navigation ul {
-    display: flex;
-	list-style: none;
+   display: flex;
+	 list-style: none;
 }
 
 .navigation  {
@@ -63,14 +63,14 @@ nav {
 
 /* Main Section */
 main {
-padding: 20px;
+  padding: 20px;
 }
 
 .hero {
-    background-color: #f7f8f8;
-    margin: 15px 0;
-    padding: 20px;
-    border: 1px solid #ccc;
+   background-color: #f7f8f8;
+   margin: 15px 0;
+   padding: 20px;
+   border: 1px solid #ccc;
 }
 .hero h1{
     text-align: center;
@@ -120,6 +120,7 @@ padding: 20px;
 
 /* Adventure Section */
 .adventure {
+    border: 1px solid #ccc;
     background-color: #f9f9f9;
     padding: 20px;
   }
