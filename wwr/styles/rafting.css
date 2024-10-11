@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 body {
     font-family: "Roboto", sans-serif;
@@ -7,114 +12,150 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #f5f5f5;
-    padding: 10px;
-    text-align: left;
-}
-
 header img {
     width: 100px;
     height: auto;
 }
 
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #b3b1b1;
+  background-color: #d0c2e5;
+}
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 100px;
+	height: auto;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+}
+
 /* Styles for the navigation bar */
-.navbar {
-    overflow:visible;
-}
-.nav-menu {
-    list-style: none;
-    height: 10px;
-    gap: 0.03px;
-    display:block;
-}
-header nav a {
-    margin: 0 1px;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-/* Hero Section */
-
-.hero image{
-    background-image: ('background-logo.jpg'); /* Replace with your image */
-    display: block;
-    width:100%;
-    height: auto;
+nav {
     position: absolute;
-    color: white;
-    object-fit: cover;
+    right: 12%;
+	text-align: right;
+    padding: 20px;
 }
 
-.hero h1 {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 36px;
-    font-weight: bold;
+.navigation ul {
+    display: flex;
+	list-style: none;
+}
+
+.navigation  {
+	display: flex;
+	color: navy;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+/* Main Section */
+main {
+padding: 20px;
 }
 
 .hero {
-    background-color: rgba(0, 0, 0, 0.5);
-    object-fit: cover;
+    background-color: #f7f8f8;
+    margin: 15px 0;
     padding: 20px;
-    max-width: 400%;
-    height: auto;
-    position: relative;
-    top: 70%;
-    left: 1%;
+    border: 1px solid #ccc;
 }
-
-/* Content Sections */
-.section {
-    padding: 40px;
+.hero h1{
     text-align: center;
 }
 
-.section h2 {
-    color: #f26522;
-    margin-bottom: 20px;
-}
-
-.section p {
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 40px;
-}
-
-/* Adventure Section */
-.adventure img {
-    width: 150%;
-    height: auto;
-    margin-bottom: 20px;
-    margin-right: 100%;
-}
-
-.adventure img.small {
-    width: 60%;
-    float: left;
-}
-
-.adventure section img{
+.content{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding: 1px;
+    margin: 0px 0;
+}
+
+.content img{
     width: 150px;
-    height: 100px;
+    height: 125px;
+}
+/* History Section */
+.history {
+    background-color: #e7e3f3;
+    padding: 20px;
+    margin: 20px 0;
   }
 
-/* Footer */
-footer {
-    background-color: #2f726f;
-    color: rgb;
-    text-align: left;
-    padding: 10px;
-    height: 3%;
-}
+  .history h2{
+    text-align: center;
+  }
+  
+  .history-content {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+  }
+  
+  .text-block {
+    width: 20%;
+  }
+  
+  .history-content img {
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+  }
 
-.footer-text {
-    color: #f0f1f1f5;
-    margin-bottom: 5px;
-}
+
+/* Adventure Section */
+.adventure {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+
+  .adventure h2{
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  
+  .gallery-item img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .gallery-item figcaption {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  /* Footer */
+footer {
+  background-color: #d0c2e5;
+  padding: 1%;
+  text-align: center;
+ }
+
+  .sociallinks img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+  }
+
