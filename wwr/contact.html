@@ -1,111 +1,107 @@
 <!doctype html>
 <html lang="en-US">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oluwayemi Oni | WDD 130</title>
+    <meta name="description" content="This is a little description of my home page which was designed by Oluwayemi Oni, studying Web and Computer Programming at BYU-Idaho and the purpose of this page is for end users to make search of anything of their choice and to know little about the developer.">
+    <meta name="author" content="Oluwayemi Oni">
     <link rel="stylesheet" href="styles/rafting.css">
-    <title>Ice Rafting Inc. Contact Us</title>
-    <meta name="description" content="Rafting Contact Us Page">
-    <meta name="author" content="Oluwayemi">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-        <nav class="navbar">
-          <ul class="nav-menu">
-            <li class="nav-item"><a href="index.html" class="nav-link"><button class="button">Home</button></a></li>
-            <li class="nav-item"><a href="about.html" class="nav-link"><button class="button">About Us</button></a></li>
-            <li class="nav-item"><a href="trips.html" class="nav-link"><button class="button">Trips</button></a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link"><button class="button">Contact Us</button></a></li>
+      <div class="logo">
+      <img src="images/crossedoars.webp" alt="Rafting Logo" class="logo">
+      </div>
+      <nav class="navigation">
+          <ul>
+            <li ><a href="index.html"><button>Home</button></a></li>
+            <li ><a href="about.html"><button>About Us</button></a></li>
+            <li ><a href="trips.html"><button>Trips</button></a></li>
+            <li ><a href="contact.html"><button>Contact Us</button></a></li>
           </ul> 
-        </nav>
-        <div class="top-bar">
-          <div>
-            <img src="images/rafting-logo.jpg" alt="Rafting Site Logo" class="logo">
-          </div>
-        </div>
+      </nav>
     </header>
     <main>
-        <div class="container">
-            <div class="left-column">
-                <section class="team-section">
-                    <div class="container">
-                      <h1>Meet Our Team</h1>
-                      <div class="team-member">
-                          <img src="images/happy1.jpg" alt="Addy Qurey">
-                          <div class="member-info">
-                              <h2>Addy Qurey</h2>
-                              <p>Adventure Manager</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                          </div>
-                      </div>
-                      <div class="team-member">
-                          <img src="images/happy2.jpg" alt="John Paddy">
-                          <div class="member-info">
-                              <h2>John Paddy</h2>
-                              <p>Adventure Counselor</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                          </div>
-                      </div>
-                      <div class="team-member">
-                          <img src="images/happy3.jpg" alt="Abakumen Helen">
-                          <div class="member-info">
-                              <h2>Abakumen Helen</h2>
-                              <p>Adventure Facilitator</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                          </div>
-                      </div>
-                    </div>
-                    <div class="contact-section">
-                      <div class="address">
-                          <h2>Our Address</h2>
-                          <p>Meeting Location:</p>
-                          <p>Sunshine Rafting Adventures</p>
-                          <p>PO Box 1045, Oakdale, CA 95361</p>
-                          <p>18000 Covered Bridge Road</p>
-                          <p>Knights Ferry, CA 95361</p>
-                          <p>Email: info@raftadventure.com</p>
-                          <p>Phone: 209-848-4800 or 800-829-7238</p>
-                      </div>
-                      <section class="contact-form">
-                          <h2>Contact Us</h2>
-                          <form action="#" method="post">
-                              <label for="name">Name:</label>
-                              <input type="text" id="name" name="name">
-                              <label for="email">Email:</label>
-                              <input type="email" id="email" name="email">
-                              <h3>Purpose of Your Message:</h3>
-                              <label><input type="radio" name="messagePurpose" value="general" checked> General
-                                  Inquiry</label>
-                              <label><input type="radio" name="messagePurpose" value="reservation"> Reservation
-                                  Question</label>
-                              <label><input type="radio" name="messagePurpose" value="suggestion"> Website Suggestion</label>
-                              <label for="message">Message:</label>
-                              <textarea id="message" name="message"></textarea>
-                              <input type="submit" value="Submit">
-                          </form>
-                      </section>
-                  </div>
-                  <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15818.395126904581!2d4.7808512!3d7.6185599999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1717017944393!5m2!1sen!2sng" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-                </section>
-            </div>
+      <section class="adventure">
+         <h1>Meet Our Team</h1>
+        <div class="gallery">
+          <div class="gallery-item">
+              <img src="images/happy1.jpg" alt="Addy Qurey">
+              <h2>Addy Qurey</h2>
+              <p>Adventure Manager</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="gallery-item">
+            <img src="images/happy2.jpg" alt="John Paddy">
+            <h2>John Paddy</h2>
+            <p>Adventure Counselor</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div> 
+          <div class="gallery-item">
+            <img src="images/happy3.jpg" alt="Abakumen Helen">
+            <h2>Abakumen Helen</h2>
+            <p>Adventure Facilitator</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>  
+        </div>          
+      </section>
+      <div class="contact-section">
+          <h2>Our Address</h2>
+          <p>Meeting Location:</p>
+          <p>Sunshine Rafting Adventures</p>
+          <p>PO Box 1045, Oakdale, CA 95361</p>
+          <p>18000 Covered Bridge Road</p>
+          <p>Knights Ferry, CA 95361</p>
+          <p>Email: info@raftadventure.com</p>
+          <p>Phone: 209-848-4800 or 800-829-7238</p>
+      </div>
+      <section class="contact-form">
+        <h2>Contact Information</h2>
+        <form>
+          <fieldset>
+            <legend>Contact Us</legend>
+              <div class="form-item">
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="name">
+               <label for="email">Email:</label>
+               <input type="email" id="email" name="email">
+              </div>
+          </fieldset>
+          <fieldset>
+            <legend>Purpose of Your Message:</legend>
+              <div class="form-item column1">
+                <label><input type="radio" name="messagePurpose" value="general" checked> General Inquiry</label>
+                <label><input type="radio" name="messagePurpose" value="reservation"> Reservation Question</label>
+                <label><input type="radio" name="messagePurpose" value="suggestion"> Website Suggestion</label>
+              </div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+          </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="map">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15818.395126904581!2d4.7808512!3d7.6185599999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1717017944393!5m2!1sen!2sng" width="400" height="300" allowfullscreen="" loading="lazy"></iframe>
         </div>
+     </section>
     </main>
       <footer>
-        <nav class="sociallinks">
+        <div class="sociallinks">
+          <p>©2024  🌴KUMANO TRAVEL 🌴 Oluwayemi Oni  🌴  Nigeria</p>
+          <a href="https://app.moqups.com/io8u7r0iflJs9gU9kZ4eu52EJOUWzoaw/view/page/ad64222d5">View Contact wireframe</a>
           <a href= "https://facebook.com">
-            <img src="images/facebook.jpg" alt="Facebook">
+            <img src="images/facebook.webp" alt="Facebook">
           </a>
           <a href="https://twitter.com">
-            <img src="images/twitter.jpg" alt="Twitter">
+            <img src="images/twitter.webp" alt="Twitter">
           </a>
           <a href="https://instagram.com">
-            <img src="images/instagram.jpg" alt="Instagram">
+            <img src="images/instagram.webp" alt="Instagram">
           </a>
-        </nav>
-        <p>©2024  🌴KUMANO TRAVEL 🌴 Oluwayemi Oni  🌴  Nigeria</p>
-        <a href="https://app.moqups.com/io8u7r0iflJs9gU9kZ4eu52EJOUWzoaw/view/page/ad64222d5">View Contact wireframe</a>
+        </div>
        </footer>
     </body>
 </html>
