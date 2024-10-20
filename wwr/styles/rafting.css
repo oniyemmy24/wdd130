@@ -118,45 +118,162 @@ main {
   }
 
 
-/* Adventure Section */
+/* happy workers Section */
 .adventure {
     border: 1px solid #ccc;
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: 15px;
+  }
+
+  .adventure h1{
+    text-align: center;
+    padding: 5px;
   }
 
   .adventure h2{
-    text-align: center;
+    text-align: left;
     padding: 5px;
   }
   
   .gallery {
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-around;
     gap: 10px;
   }
   
-  .gallery-item img {
+  .gallery-item image {
+    position: sticky;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
     width: 150px;
     height: 150px;
   }
   
-  .gallery-item figcaption {
+
+  /* Form style*/
+
+  h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
     text-align: center;
-    margin-top: 10px;
-  }
+}
+
+form{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+.contact-form h2{
+  text-align: center;
+}
+
+fieldset{
+    grid-gap: .3rem;
+    margin: 2rem;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+legend {
+    font-size: 18px;
+    color: navy;
+    padding: 0.5rem;
+}
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input, select, textarea {
+    padding: 0.1rem;
+    font-size: 1.1rem;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: calc(103% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+
+    input[type="checkbox"] {
+        margin-right: 5px;
+    }
+
+}
+button {
+    background-color: #2e2e8e;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+button:hover {
+    background-color: #1a242f;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.3rem 0;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+iframe {
+  padding: 10px 10px;
+  border: 0;
+  width: 80%;
+  height: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
   /* Footer */
 footer {
-  background-color: #d0c2e5;
-  padding: 1%;
+  background-color: #a182cf;
+  color: white;
   text-align: center;
+  padding: 30px ;
+  width: 100%;
  }
 
+.sociallinks a{
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
   .sociallinks img {
+    float: right;
     width: 30px;
     height: 30px;
     margin: 0 5px;
   }
-
+  
