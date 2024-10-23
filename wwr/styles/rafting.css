@@ -58,7 +58,7 @@ nav {
 .navigation a:hover {
  color: tomato;
  font-weight: 700;
- text-decoration: underline;
+ text-decoration: underline;
 }
 
 /* Main Section */
@@ -213,7 +213,7 @@ textarea {
     border-radius: 5px; 
 
     input[type="checkbox"] {
-        margin-right: 5px;
+        margin-right: 0, 1px, 5px;
     }
 
 }
