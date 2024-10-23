@@ -42,12 +42,13 @@ nav {
   position: absolute;
   right: 12%;
   text-align: right;
-  padding: 20px;
+  padding: 10px;
 }
 
 .navigation ul {
   display: flex;
   list-style: none;
+  gap: 30px;
 }
 
 .navigation  {
