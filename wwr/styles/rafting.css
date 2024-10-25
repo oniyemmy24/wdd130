@@ -140,11 +140,11 @@ main {
     display:flex;
     flex-wrap: wrap;
     justify-content:space-around;
-    gap: 10px;
+    gap: 5px;
   }
   
   .gallery-item image {
-    position: sticky;
+    position: static;
     display:flex;
     flex-wrap: wrap;
     justify-content:space-around;
@@ -274,3 +274,169 @@ footer {
     margin: 0 5px;
   }
   
+/* Trip Section */
+
+.trip-section {
+  text-align: center;
+  margin: 40px 0;
+  padding: 40px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.trip-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+/* Row Styling */
+.trip-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* Trip Item Styling */
+.trip-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: center;
+}
+
+.trip-item img {
+  width: 100%;
+  height: 50%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.trip-item p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+/* Button Styling */
+button {
+  background-color: #3139aa;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+/* index section*/
+main {
+  padding: 20px;
+}
+.signup {
+  background-color: #f9f9f9;
+  padding: 50px;
+  margin: 0;
+  border-radius: 0px;
+  box-shadow: 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.signup h2 {
+  margin-top: 5px;
+}
+.signup form {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.signup form label {
+  margin: 0.5px;
+}
+
+.signup form input {
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 80%;
+  max-width: 450px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.signup form button {
+  padding: 10px 0px;
+  display: block;
+  border-radius: 5px;
+  background-color: #3139aa;
+  color: rgb(134, 130, 130);
+  font-size: 1.5rem 1rem;
+  cursor: pointer;
+}
+
+.signup form button:hover {
+  background-color: #2b2a69;
+}
+.cta {
+  background-color: #8e9091;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.cta h2 {
+  margin-top: 0;
+}
+.cta-button {
+  display:block;
+  padding: 10px 20px;
+  background-color: white;
+  color: #1a1520;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #009bb5;
+  color: rgb(102, 99, 99);
+}
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-layout p {
+  color: rgb(248, 247, 245);
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 50%;
+  border: 3px solid var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 500px; /* Adjust height as needed */
+  text-align: center;
+}
+.hero-container-image{
+  width: 80%;
+  height:80%;
+  margin-top: 20px;
+  object-fit: cover;
+}
