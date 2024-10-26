@@ -425,8 +425,8 @@ main {
 .cta-button {
   display:block;
   padding: 10px 20px;
-  background-color: white;
-  color: #1a1520;
+  background-color: rgb(70, 49, 189);
+  color: #f5f4f7;
   text-decoration: none;
   border-radius: 10px;
   font-weight: bold;
